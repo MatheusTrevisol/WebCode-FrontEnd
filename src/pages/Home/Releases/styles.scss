@@ -1,0 +1,115 @@
+$text-color: #1D1D1D;
+$svg-color: #1D1D1D;
+$old-price-color: #8A8A8A;
+$span-price: #B11B26;
+
+.releases .card {
+  width: 22rem;
+}
+
+.releases .card-image-div {
+  position: relative;
+  width: 22rem;
+  height: 22rem;
+}
+
+.releases .card-image-div .heartButton {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background: none;
+
+  padding: 1.2rem;
+
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: $svg-color;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.releases .card-image-div .heartButton:hover {
+  transform: scale(1.2);
+}
+
+.releases .card-image-div .bagButton {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background: none;
+  
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: $svg-color;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.releases .card-image-div .bagButton:hover {
+  transform: scale(1.2);
+}
+
+.releases .card-image-div .bag {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.releases .card-image-div span {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 9px;
+  color: $span-price;
+}
+
+.releases .card-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.releases .card-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  color: $text-color;
+}
+
+.releases .card-text span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1rem;
+  color: $text-color;
+}
+
+.releases .card-text .spanDiv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.releases .card-text .spanDiv .isDiscountDiv{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1rem;
+  
+  color: $old-price-color;
+}

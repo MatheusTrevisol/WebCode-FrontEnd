@@ -1,0 +1,24 @@
+$text-color: #1D1D1D;
+
+.categorys .card-image-div,
+.categorys .card-image {
+  width: 13.5rem;
+  height: 17.5rem;
+
+  overflow: hidden;
+}
+
+.categorys .swiper-slide {
+  width: 13.5rem !important;
+}
+
+.categorys .card {
+  gap: 4px !important /**para manter a altura de 195px do layout */
+}
+
+.categorys p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: $text-color;
+}

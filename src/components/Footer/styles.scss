@@ -1,0 +1,67 @@
+$background-color: #B11B26;
+$footer-color: #FFE9DC;
+$white: #FFFFFF;
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 6.4rem;
+  height: 57.3rem;
+
+  background: $background-color;
+  
+  padding: 2.4rem 0 6.4rem;
+  text-align: center;
+}
+
+footer .logo img {
+  width: 100%;
+  height: 9.3rem;
+}
+
+footer .social-medias ul,
+footer .social-medias a,
+footer .nav-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.6rem;
+}
+
+footer .social-medias ul svg {
+  color: $footer-color;
+}
+
+footer .nav-footer,
+footer .nav-footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.6rem;
+}
+
+footer .nav-footer h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.1rem;
+}
+
+footer .nav-footer a {
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+footer .nav-footer, 
+footer .nav-footer a{
+  color: $white;
+}

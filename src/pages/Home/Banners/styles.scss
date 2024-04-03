@@ -1,0 +1,77 @@
+$color-white: #FFFFFF;
+$header-color: #1D1D1D;
+
+$box-shadow: #00000029;
+/*SWIPER*/
+$swiper-dots: #8A8A8A;
+$swiper-dots-active: #FFFFFF;
+
+.banners {
+  position: relative;
+}
+
+.banners .wrapper {
+  position: relative;
+  display: flex;
+  border: none !important;
+  outline: none !important;
+}
+
+.banners .banners-images {
+  max-width: 39.3rem;
+  max-height: 69.8rem;
+  width: auto;
+  height: auto;
+}
+
+/** CONHEÇA JÁ BUTTON */
+.banners .button-banner {
+  height: 4.3rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 1.6rem;
+
+  padding: 1.2rem 2.4rem;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 1.4rem;
+  font-family: Open Sans, sans-serif;  
+  line-height: 19.07px;
+  color: $color-white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  text-decoration: underline;  
+
+  border: 1px solid $color-white;
+  
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 4px 12px 0px $box-shadow;
+  z-index: 15;
+}
+
+/**SWIPER-DOTS */
+.banners .swiper-pagination-banners {
+  display: flex;
+  justify-content: flex-end;
+  width: max-content !important;
+  position: absolute !important;
+  bottom: 3.2rem !important;
+  right: 3.2rem !important;
+  left: auto !important;
+
+  gap: 4px;
+  z-index: 99;
+}
+
+.banners .swiper-pagination-banners > span {
+  background: $swiper-dots !important;
+  margin: 0 !important;
+  width: 6px !important;
+  height: 6px !important;
+  opacity: 1 !important;
+}
+
+.banners .swiper-pagination-banners > .swiper-pagination-bullet-active {
+  background: $swiper-dots-active !important;
+}

@@ -1,0 +1,17 @@
+$svg-color: #FFFFFF;
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+}
+
+.headerIcons:hover{
+  transform: scale(1.05);
+}
+
+// .releaseHeartButton {
+//   padding: 1.2rem;
+// }

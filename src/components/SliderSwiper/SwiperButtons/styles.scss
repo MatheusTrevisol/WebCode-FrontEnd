@@ -1,0 +1,30 @@
+.swiper-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-right: 4px;
+}
+
+.swiper-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  box-shadow: rgba(180, 190, 196, 0.6) 4px 4px;
+  cursor: pointer;
+}
+
+.left-button {
+  svg {
+    transform: translateX(-1px);
+  }  
+}
+
+.right-button {
+  svg {
+    transform: translateX(2px);
+  }  
+};

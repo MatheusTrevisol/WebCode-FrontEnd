@@ -1,0 +1,11 @@
+$background: #FFFFFF;
+
+.App {
+  position: relative;
+  max-width: 39.3rem;
+  min-width: 39.3rem;
+  margin: 0 auto;
+  background: $background;
+  overflow-y: hidden;
+  overflow: clip;
+}

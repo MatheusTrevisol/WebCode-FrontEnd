@@ -1,0 +1,35 @@
+$text-color: #1D1D1D;
+
+.slider-div {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 0 4.8rem 1.6rem;
+  
+  gap: 1.6rem;
+}
+
+.slider-div > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-div h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: $text-color;
+}
+
+.slider-div .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  gap: 1rem;
+}
+
+.slider-div .card .card-image:hover {
+  transform: scale(1.05);
+}

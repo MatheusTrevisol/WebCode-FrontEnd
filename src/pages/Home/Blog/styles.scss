@@ -1,0 +1,114 @@
+$text-color: #1D1D1D;
+$text-subtitle-color: #8A8A8A;
+
+.blogs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 1.6rem 6.2rem;
+  
+  gap: 2.4rem;
+}
+
+.blogs > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogs .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  gap: 1.6rem;
+}
+
+.blogs .card .card-image img {
+  height: 24.1rem;
+}
+
+/** HEADER-CARD-TEXT */
+.blogs .text-header {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+  padding-left: 8px;
+}
+
+.blogs .text-header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: $text-color;
+}
+
+.blogs .text-header p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: $text-subtitle-color;
+}
+
+/** BOTTOM-CARD-TEXT */
+.blogs .card-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.6rem;
+}
+
+.blogs .card-text h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.blogs .card-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.37rem;
+  color: $text-subtitle-color;
+}
+
+.blogs .card-text span {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 9px;
+  color: $text-color;
+}
+
+/**SWIPER DOTS */
+/**SLICK-DOTS */
+.blogs .swiper-pagination-blogs {
+  display: flex;
+  justify-content: flex-end;
+  width: max-content !important;
+  position: absolute !important;
+  bottom: 3.2rem !important;
+  right: 1.6rem !important;
+  left: auto !important;
+  gap: 4px;
+
+}
+
+.blogs .swiper-pagination-blogs > span {
+  background: $text-subtitle-color !important;
+  margin: 0 !important;
+  width: 6px !important;
+  height: 6px !important;
+  opacity: 1 !important;
+}
+
+.blogs .swiper-pagination-blogs > .swiper-pagination-bullet-active {
+  background: $text-color !important;
+}
